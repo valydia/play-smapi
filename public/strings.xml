@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<stringtables xmlns="http://sonos.com/sonosapi">
+    <stringtable rev="1" xml:lang="en-US">
+        <string stringId="ServicePromo">Acme is a sample music service that demonstrates the capabilities of the Sonos Content API.\n\nSet up your account now to start testing it</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="da-DK">
+        <string stringId="ServicePromo">Acme er en musiktjeneste til samples, der viser mulighederne i Sonos' Content API.\n\nOpret en konto nu for at komme i gang</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="de-DE">
+        <string stringId="ServicePromo">Acme ist ein Beispielmusikdienst, der die Möglichkeiten der Sonos Content API demonstriert.\n\nRichte dein Konto ein, um ihn sofort zu testen.</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="es-ES">
+        <string stringId="ServicePromo">Acme es un servicio de música de muestra que demuestra las capacidades de Sonos Content API.\n\nConfigure su cuentea y empiece a probarlo</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="fr-FR">
+        <string stringId="ServicePromo">Acme est un service musical exclusivement destiné à faire la démonstration des fonctionnalités de l'API de contenu de Sonos.\n\nConfigurez votre compte maintenant pour commencer à le tester</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="it-IT">
+        <string stringId="ServicePromo">Acme è un servizio di musica campione che dimostra le capacità dell'API Sonos Content.\n\nImposta ora il tuo account per iniziare e provarlo</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="ja-JP">
+        <string stringId="ServicePromo">Acmeは、Sonos Content APIの能力を示すシンプルな音楽サービスです。\n\n今すぐアカウントをセットアップし、使ってみてください。</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="nb-NO">
+        <string stringId="ServicePromo">Acme er en eksempelmusikktjeneste som viser kapasitetene til Sonos Content API.\n\nKonfigurer kontoen din nå for å begynne å teste den</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="nl-NL">
+        <string stringId="ServicePromo">Acme is een demo-muziekservice die de mogelijkheden van de Sonos Content API laat zien.\n\nMaak nu een account aan en probeer het uit</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="pt-BR">
+        <string stringId="ServicePromo">O Acme é uma amostra de serviço de música que demonstra os recursos da API de conteúdo do Sonos.\n\nConfigure a sua conta agora mesmo e comece a testar o serviço</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="sv-SE">
+        <string stringId="ServicePromo">Acme är ett exempel på en musiktjänst som visar möjligheterna för Sonos-innehållets API.\n\nDu kan börja testa den nu genom att konfigurera ditt konto</string>
+    </stringtable>
+    <stringtable rev="1" xml:lang="zh-CN">
+        <string stringId="ServicePromo">Acme 是一个音乐服务示例，它演示了 Sonos Content API 的功能。\n\n现在设置您的账户进行测试。</string>
+    </stringtable>
+</stringtables>

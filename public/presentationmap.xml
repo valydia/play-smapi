@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Presentation>
+    <!-- BrowseOptions allow for an override of standard browse operations in the controller -->
+    <!-- <BrowseOptions PageSize="250" /> -->
+    <PresentationMap type="Search">
+        <Match>
+            <SearchCategories>
+                <!-- providers that use the canonical identifiers -->
+                <Category id="artists"/>
+                <Category id="albums"/>
+                <Category id="tracks"/>
+            </SearchCategories>
+        </Match>
+    </PresentationMap>
+    <!-- The NowPlayingRatings PresentationMap maps dynamic data for a
+    track to presentation information used on the Sonos Now Playing
+    screen -->
+    <!--
+    <PresentationMap type="NowPlayingRatings"
+                     trackEnabled="true"
+                     programEnabled="false">
+    . . .
+    </PresentationMap>
+    -->
+    <!-- the ListOverlays PresentationMap maps dynamic data (for a track) to
+             album art overlay icons which are displayed only in browse lists.
+             Album art overlays are not used on the Now Playing screen or the
+             Info View header.
+          -->
+    <!--
+    <PresentationMap type="InfoView">
+    . . .
+    </PresentationMap>
+-->
+    <!--
+    <PresentationMap type="ArtWorkSizeMap">
+    . . .
+    </PresentationMap>
+-->
+    <!--
+    <PresentationMap type="BrowseIconSizeMap">
+    . . .
+    </PresentationMap>
+-->
+</Presentation>
