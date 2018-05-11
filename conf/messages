@@ -1,1 +1,9 @@
-# https://www.playframework.com/documentation/latest/ScalaI18N
+# https =//www.playframework.com/documentation/latest/ScalaI18N
+
+enterCode.pageTitle = Enter Link Code
+enterCode.loginHeader = Log into Acme Service
+
+enterCode.linkCodeLabel = Link Code:
+enterCode.usernameLabel = Username:
+enterCode.passwordLabel = Password:
+entercode.submitbuttonvalue=log into Acme Service

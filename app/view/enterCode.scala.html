@@ -1,0 +1,27 @@
+
+@(linkCode: String, deviceId: Option[String])(implicit messages: Messages)
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>@Messages("enterCode.pageTitle")</title>
+</head>
+<body>
+    <h1>@Messages("enterCode.loginHeader")</h1>
+    @helper.form(action = controllers.routes.DeviceLinkController.login(), 'novalidate -> "novalidate") {
+        <label>@Messages("enterCode.linkCodeLabel")</label>
+        <input type="text" id="linkCode" name="linkCode" value="@linkCode"/>
+        <br />
+        <label>@Messages("enterCode.usernameLabel")</label>
+        <input type="text" id="username" name="username" size="20" />
+        <br />
+        <label>@Messages("enterCode.passwordLabel")</label>
+        <input type="password" id="password" name="password" size="20" />
+        <input type="hidden" id="linkDeviceId" name="deviceId" th:value="@{
+            deviceId.getOrElse("")
+        }" />
+        <input type="submit" id="login" value="log in to Acme Service" th:value="#{entercode.submitbuttonvalue}"/>
+    }
+</body>
+</html>

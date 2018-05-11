@@ -2,6 +2,8 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
+GET     /deviceLink/home            controllers.DeviceLinkController.home()
+POST    /deviceLink/login            controllers.DeviceLinkController.login()
 
 # Apache CXF controller
 GET     /service/*path              org.apache.cxf.transport.play.CxfController.handle(path)
